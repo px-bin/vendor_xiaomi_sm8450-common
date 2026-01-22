@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qapeservice.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
@@ -142,16 +141,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf-hal-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
@@ -161,19 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/PreKillFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PreKillFeature.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/ProCompFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ProCompFeature.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/QAPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QAPE.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/QGPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPE.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/QGPEActionMap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPEActionMap.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/SilkyScrollsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SilkyScrollsFeature.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/prekill/prekill_2GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_2GB.data \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/lm/sPLHFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/sPLHFeature.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_codecs_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_cape.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_codecs_diwali_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_diwali_v0.xml \
@@ -203,16 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/perfboostselection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostselection.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/perf/thermal-boost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermal-boost.conf \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.km100.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.km100.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
@@ -250,9 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qapeservice.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
-    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
@@ -285,7 +255,6 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     libCB \
     libOpenCL \
-    libadreno_app_profiles \
     libadreno_utils \
     libgpudataproducer \
     libgsl \
@@ -295,7 +264,6 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libllvm-qgl \
     libvmmem \
-    vendor.qti.qspmhal@1.0 \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
     com.qualcomm.qti.dpm.api@1.0_vendor \
@@ -327,7 +295,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
-    vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vulkan.adreno \
@@ -357,14 +324,11 @@ PRODUCT_PACKAGES += \
     libQcelp13SwCodec \
     libQtiRilLoadable \
     lib_misound_asc \
-    libadaptlaunch \
     libadm \
     libadsp_default_listener \
     libadsprpc \
     libagm \
     libagmmixer \
-    libapengine \
-    libappclassifier \
     libar-acdb \
     libar-gpr \
     libar-gsl \
@@ -431,11 +395,7 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
-    liblightninglaunches \
     liblistensoundmodel2vendor \
-    liblmthermallistner \
-    liblmutils-ns \
     libloc_api_v02 \
     libloc_api_wds \
     libloc_base_util \
@@ -459,10 +419,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdmimgload \
     libmdsprpc \
-    libmemperfd \
     libmemutils \
-    libmeters-ns \
-    libmeters \
     libminkdescriptor \
     libminksocket_vendor \
     libmisight \
@@ -489,19 +446,12 @@ PRODUCT_PACKAGES += \
     libops \
     libpal_net_if \
     libpalclient \
-    libpasrutils \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfgluelayer \
-    libperfioctl \
     libperipheral_client \
     libpowercallback \
     libpowercore \
-    libprekill \
-    libprocomp \
     libpsmoptfeature \
-    libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -548,7 +498,6 @@ PRODUCT_PACKAGES += \
     libqdi \
     libqdp \
     libqdpr \
-    libqesdk \
     libqisl \
     libqmi \
     libqmi_cci \
@@ -564,12 +513,6 @@ PRODUCT_PACKAGES += \
     libqrtrclient \
     libqseed3 \
     libqsocket \
-    libqti-iopd-client \
-    libqti-iopd \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-util \
-    libqti-utils \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
@@ -597,8 +540,6 @@ PRODUCT_PACKAGES += \
     libsensorslog \
     libshsc \
     libshsusr_verinfo \
-    libsilkyscrolls \
-    libskewknob \
     libsn100u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
@@ -610,7 +551,6 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libspcom \
     libspl \
-    libsplh \
     libssc \
     libssc_default_listener \
     libssd \
@@ -739,8 +679,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dpmservice@1.1_vendor \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.power.powermodule@1.0 \
@@ -817,10 +755,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.power.pasrmanager@1.0 \
-    vendor.qti.qspmhal@1.0-impl \
     com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
@@ -925,11 +859,9 @@ PRODUCT_PACKAGES += \
     qtiradio-saidl.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
-    vendor.qti.hardware.perf.xml \
     vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qconfig@1.0-service.xml \
     vendor.qti.hardware.radio.ims.xml \
-    vendor.qti.hardware.servicetracker@1.2-service.xml \
     vendor.qti.hardware.vpp@2.0-service.xml \
     ATFWD-daemon \
     SoterProvisioningTool \
@@ -954,12 +886,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.AGMIPC@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.iop@2.0-service \
-    vendor.qti.hardware.perf-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
@@ -981,7 +910,6 @@ PRODUCT_PACKAGES += \
     netmgrd \
     nv_mac \
     pd-mapper \
-    perf_qesdk_client \
     pm-proxy \
     pm-service \
     port-bridge \
@@ -1013,7 +941,6 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vendor.dpmd \
     vendor.qti.hardware.soter@1.0-provision \
-    vendor.qti.qspmhal@1.0-service \
     vppservice \
     wfdhdcphalservice \
     wfdvndservice \
